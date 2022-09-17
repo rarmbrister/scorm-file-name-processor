@@ -6,6 +6,7 @@ import time
 import sys
 
 
+# recommended directory app tree
 # ├── _app
 # │   ├── app.py
 # │   ├── zipped
@@ -46,12 +47,9 @@ def process_file(file_name):
     return new_name, name, old_name
 
 
-# path used when developed on windows machine
-# alpha = r"C:\Users\rxa877\Documents\alpha"
-
-
 def main():
-    app_directory = r"/Users/rarmbrister/Downloads/alpha"
+    # replace this app_directory with the location of your app based on the recommended directory app tree
+    app_directory = r"/Users/example-user/documents/app"
 
     # define folder where processed file(s) will be stored without alphanumeric characters in the name(s)
     processed = f"{path_separator}processed"
